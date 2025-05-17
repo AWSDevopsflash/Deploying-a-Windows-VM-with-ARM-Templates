@@ -1,0 +1,4 @@
+az deployment group create \
+  --resource-group <your-resource-group> \
+  --template-file windowsServer2019-vm-template.json \
+  --parameters vmName=myWinVM adminUsername=azureuser adminPassword=YourP@ssw0rd123
